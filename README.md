@@ -9,3 +9,7 @@ to open the palette and select "Dev Containers: Rebuild in Container"
 Check Typescript is installed by running command
 
 ``` tsc --help ```
+
+Check whats installed
+
+``` npm list ```
