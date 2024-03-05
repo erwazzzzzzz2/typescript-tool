@@ -25,12 +25,22 @@
 	//"postAttachCommand": "npm run dev",
 	"customizations": {
         "vscode": {
+			"[javascript]": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode",
+				"editor.formatOnSave": true,
+				"editor.codeActionsOnSave": {
+				  "source.fixAll": true
+				}
+			  },
             "extensions": [
                 "streetsidesoftware.code-spell-checker",
                 "dbaeumer.vscode-eslint",
                 "esbenp.prettier-vscode",
+				"firsttris.vscode-jest-runner",,
                 "DavidAnson.vscode-markdownlint",
-                "ms-vscode-remote.remote-containers"
+                "ms-vscode-remote.remote-containers",
+				"qcz.restart-ts-server-button",
+				"rtbenfield.vscode-jest-test-adapter",
             ]
         }
     }
