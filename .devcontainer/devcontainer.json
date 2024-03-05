@@ -37,7 +37,6 @@
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "firsttris.vscode-jest-runner",
-        ,
         "DavidAnson.vscode-markdownlint",
         "ms-vscode-remote.remote-containers",
         "qcz.restart-ts-server-button",
