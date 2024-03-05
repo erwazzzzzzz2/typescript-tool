@@ -2,7 +2,6 @@
 
 You don't wat to install Typescript globally do you. Use a DevContainer instead.
 
-
 Open in VSCode , if the prompt to run in a container is not seen use
 
 `Cntrl Shift P`
@@ -16,3 +15,7 @@ Check Typescript is installed by running command
 Check whats installed
 
 `npm list`
+
+### Pre-commit
+
+A pre-commit hook runs linting , prettier and tests
